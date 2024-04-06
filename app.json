@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "BluBudget",
+    "slug": "BluBudget",
+    "version": "0.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/BluBudgetFullIcon.png",
+    "splash": {
+      "image": "./assets/BluBudgetFullIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1DA1F2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.joegordon.blubudget",
+      "infoPlist": {
+        "UIRequiresFullScreen": true
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/BluBudgetFullIcon.png"
+    }
+  }
+}
